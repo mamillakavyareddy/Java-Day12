@@ -55,8 +55,20 @@ public class Example1 {
 			}
 		}
 		
+		try {
+			int dividebyzero=5/0;
+			System.out.println("do some addition");
+		}
+		catch(ArithmeticException e) {
+			System.out.println("follwing error has occured" + e.getMessage() );
+		}
+		
+		}
+	
+	
+	
 	}
 	
 	
 
-}
+
